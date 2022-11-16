@@ -7,19 +7,54 @@
   <title>Document</title>
 </head>
 <body>
+  <style>
+
+    .Link-to-amazon {
+      color: rgb(0, 113, 113);
+    }
+
+    .Dollars {
+      color:rgb(0, 118, 0);
+      font-weight: bold;
+    }
+    
+    .Add-to-cart {
+      height: 30px;
+      width: 130px;
+      border: none;
+      background-color: rgb(255, 216, 20);
+      border-radius: 15px;
+      margin-right: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .Buy-now {
+      height: 30px;
+      width: 130px;
+      border: none;
+      background-color: rgb(255, 164, 28);
+      border-radius: 15px;
+      margin-right: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+  </style>
+
   <p>
 
-    <a href="https://amazon.com/"> 
+    <a class="Link-to-amazon" href="https://amazon.com/"> 
       Back to Amazon 
     </a>
 
   </p>
 
-  <p>
+  <h1>
     Nike Black Running Shoes
-  </p>
+  </h1>
 
-  <p>
+  <p class="Dollars">
     $39 - in stock.
   </p>
   
@@ -27,11 +62,11 @@
   Free delivery tomorrow
  </p>
  
- <button> 
+ <button class="Add-to-cart"> 
   Add to Cart
 </button>
 
-<button>
+<button class="Buy-now">
   Buy now
 </button>
 
