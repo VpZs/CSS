@@ -18,6 +18,15 @@
       border-radius: 2px;
       cursor: pointer;
       margin-right: 8px;
+      transition:opacity 0.2s ;
+    }
+
+    .Subscribe-button:hover {
+      opacity: 0.8;
+    }
+
+    .Subscribe-button:active {
+      opacity: 0.4
     }
   
     .join-button {
@@ -31,6 +40,18 @@
       border-radius: 2px;
       cursor: pointer;
       margin-right: 8px;
+      transition: background-color 0.2s,
+      color 0.2s;
+      
+    }
+
+    .join-button:hover {
+      background-color: blue;
+      color: white;
+    }
+
+    .join-button:active {
+      opacity: 0.7;
     }
   
     .Tweet-button {
@@ -43,6 +64,11 @@
       font-weight: bold;
       font-size: 15px;
       cursor: pointer;
+      transition: box-shadow 0.2s;
+    }
+    
+    .Tweet-button:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
     }
   
     .Request-now-button {
@@ -52,6 +78,11 @@
       width: 105px;  
       margin-left: 8px;
       cursor: pointer;
+      transition: opacity 0.2s;
+    }
+
+    .Request-now-button:hover {
+      opacity: 0.8;
     }
   
     .Add-to-Cart-button {
@@ -63,6 +94,11 @@
       border-radius: 18px;
       color: black;
       cursor: pointer;
+      transition: background-color 0.2s
+    }
+
+    .Add-to-Cart-button:hover {
+      background-color: rgb(243, 204, 11) ;
     }
 
     .Sign-up-button {
@@ -75,7 +111,13 @@
       color: white;
       font-weight: bold;
       cursor: pointer;
+      transition: box-shadow 0.2s;
     }
+
+    .Sign-up-button:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
+    }
+
     .Get-started-button {
       color: white;
       border-width: 0px;
@@ -86,7 +128,13 @@
       margin-left: 8px;
       border-radius: 4px;
       cursor: pointer;
+      transition: background-color 0.2s;
     }
+
+    .Get-started-button:hover {
+      background-color: rgb(101, 71, 145) ;
+    }
+
     .Download-button {
       background-color: white;
       border-color: rgb(108, 117, 125);
@@ -98,6 +146,13 @@
       border-radius: 4px;
       cursor: pointer;
       font-weight: bold;
+      transition: background-color 0.2s,
+      color 0.2s;
+    }
+
+    .Download-button:hover {
+      background-color:rgb(108, 117, 125);
+      color: white;
     }
 
     .Apply-on-company-website-button {
@@ -110,8 +165,13 @@
       font-weight: bold;
       font-size: 14px;
       cursor: pointer;
+      transition: background-color 0.2s;
     }
     
+    .Apply-on-company-website-button:hover {
+      background-color: rgb(7, 83, 158) ;
+    }
+
     .Save-button {
       height:36px;
       width: 75px;
@@ -119,11 +179,20 @@
       border-color: rgb(10, 102, 194);
       border-style: solid;
       border-radius: 18px;
+      border-width: 1px;
       color: rgb(10, 102, 194);
       font-weight: bold;
       font-size: 14px;
       cursor: pointer;
+      transition: background-color 0.2s,
+      border-width 0.2s;
     }
+    
+    .Save-button:hover {
+      background-color: rgb(236, 241, 248);
+      border-width: 2px;
+    }
+
   </style>
   
   <button class="Subscribe-button">
