@@ -1,0 +1,19 @@
+.Model-3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin: 0px;
+}
+
+.Order {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.Touchless {
+  text-decoration: underline;
+}
