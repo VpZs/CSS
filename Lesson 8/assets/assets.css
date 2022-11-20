@@ -1,0 +1,123 @@
+.Text {
+  display: block;
+  margin-top: 2px;
+}
+
+.Support {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button {
+  vertical-align: middle;
+}
+
+.google {
+  width: 450px;
+  margin-left: 30px;
+}
+
+.search {
+  width: 500px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  margin-top: 0px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border: 0px;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.first-name,
+.last-name {
+  font-family: arial;
+  border-color: rgb(208, 208, 208);
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 2px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  width: 100px;
+}
+
+.email {
+  font-family: arial;
+  border-color: rgb(208, 208, 208);
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 2px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  width: 218px;
+  display: block;
+  margin-top: 6px;
+}
+
+.sign-up {
+  font-family: arial;
+  font-weight: bold;
+  border: none;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 2px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 232px;
+  margin-top: 6px;
+  color: white;
+  background-color: rgb(0, 136, 255);
+}
+
+.uber {
+  font-family: arial;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.pickup,
+.destination {
+  display: block;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  width: 300px;
+  margin-bottom: 6px;
+  border: none;
+  background-color: rgb(234, 234, 234);
+  font-size: 13px;
+}
+
+.request {
+  font-family: arial;
+  color: white;
+  background-color: black;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 14px;
+  margin-right: 20px;
+}
+
+.schedule {
+  font-family: arial;
+  color: black;
+  background-color: rgb(234, 234, 234);
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 14px;
+}

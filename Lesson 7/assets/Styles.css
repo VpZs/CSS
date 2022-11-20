@@ -1,0 +1,133 @@
+.Banana-1 {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.Banana-2 {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.Banana-3{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.Search {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.Search-google {
+  width: 500px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  margin-top: 30px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border: 0px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.Linkedin {
+  font-family: arial;
+  color: gray;
+}
+
+.Email{
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 4px;
+}
+
+.Email-textbox {
+  width: 365px;
+  height: 25px;
+  border-width: 2px;
+  border-radius: 4px;
+  border-style: solid;
+}
+
+.Disclamer {
+  font-size: 14px;
+  word-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Agree {
+  font-size: 20px;
+  color: white;
+  border-radius: 75px;
+  border-width: 0px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(0, 97, 208);
+  transition: opacity 0.2s;
+}
+
+.Agree:hover {
+  opacity: 0.8;
+}
+
+.Agree:active {
+  opacity: 0.6;
+}
+
+
+.Banana-4 {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-top: 30px;
+  vertical-align: middle;
+}
+
+.twitter-textbox {
+  border: none;
+  width: 300px;
+  font-size: 18px;
+  font-family: Arial;
+  vertical-align: middle;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.tweetbox {
+  margin-top: 30px;
+  background-color: rgb(29, 155, 240);
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-family: Arial;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 13px;
+  vertical-align: middle;
+  transition: opacity 0.3s,
+  box-shadow 0.3s;
+}
+
+.tweetbox:hover {
+  opacity: 0.8;
+}
+
+.tweetbox:active {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
